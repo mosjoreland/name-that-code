@@ -95,9 +95,11 @@ startBtnEl.addEventListener('click', function (event) {
       inputEl.setAttribute('id', 'initial');
       inputEl.setAttribute('placeholder', 'Enter initials');
       initialEl.setAttribute('style', 'font-size: 20px; text-align: center;');
-
+      let break2El = document.createElement('div');
+      break2El.setAttribute('class', 'w-100 d-none d-md-block');
       questionContentEl.appendChild(initialEl);
       questionContentEl.appendChild(inputEl);
+      questionContentEl.appendChild(break2El);
 
       let saveInputEl = document.createElement('button');
       saveInputEl.setAttribute('class', 'btn btn-danger');

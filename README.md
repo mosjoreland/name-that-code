@@ -2,6 +2,8 @@
 
 [GitHub Repo](https://github.com/mosjoreland/name-that-code)
 
+[Deployed website](https://mosjoreland.github.io/name-that-code/)
+
 ## Description
 This application is a coding quiz that will save a players high score and their initials in the local storage. Then when the user clicks on the view high scores tab their initials and high scores displayed on the window. I used the 
 
